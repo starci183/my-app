@@ -17,7 +17,7 @@ const Layout = ({
   children: React.ReactNode;
 }>) => {
     return (
-        <html lang="en">
+        <html lang="en dark">
             <body
                 className={`${font.className} antialiased`}
             >

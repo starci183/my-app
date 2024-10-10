@@ -1,6 +1,6 @@
 "use client"
 import React from "react"
-import { Avatar, Button, Image, Spacer } from "@nextui-org/react"
+import { Avatar, Button, Image, Link, Spacer } from "@nextui-org/react"
 import { Player } from "./Player"
 const Page = () => {
     return (
@@ -25,7 +25,7 @@ const Page = () => {
                         <Spacer y={4}/>
                         <div>The first multichain Farm-To-Earn game launched on Telegram, with initial support for Solana</div>
                         <Spacer y={4}/>
-                        <Button color="primary" size="lg">Play Now</Button>
+                        <Button as={Link} href="https://t.me/ciwallet_bot" isExternal color="primary" size="lg">Play Now</Button>
                     </div>
                 </div>
                 <div className="p-6">

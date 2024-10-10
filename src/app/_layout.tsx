@@ -7,7 +7,7 @@ import { Navbar } from "@/components"
 
 export const LayoutContent = ({ children }: PropsWithChildren) => {
     return (
-        <NextThemesProvider attribute="class" enableSystem>
+        <NextThemesProvider attribute="class" defaultTheme="dark">
             <Navbar />
             {children}
         </NextThemesProvider>

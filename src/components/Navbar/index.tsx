@@ -22,7 +22,7 @@ export const Navbar = () => {
                     <Link href="#">Earn</Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Button as={Link} color="primary" href="#">
+                    <Button as={Link} href="https://t.me/ciwallet_bot" isExternal color="primary">
             Go To App
                     </Button>
                 </NavbarItem>
